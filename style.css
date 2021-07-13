@@ -1,0 +1,225 @@
+/*-- ----Fonts And Default Css
+-------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body{
+    background-color: #f3f1ff;
+    
+}
+.color{
+    color: #562eff;
+}
+.section-container{
+  width: 870px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+/*------- Header CSS
+-------------------- ------*/
+
+.header-container{
+  width: 870px;
+  height: 100%;
+  margin: auto;
+}
+
+header {
+  background-color: #562eff;
+  height: 95px;
+  margin-bottom: 25px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.left-side {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  height: 100%;
+}
+.header-logo {
+  width: 40px;
+  height: 51px;
+  
+}
+.logo-text {
+  color: white;
+  position: relative;
+  left: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.logo-text:hover{
+    color: rgb(250, 141, 39);
+    transition: .5s;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.menu-items ul {
+  list-style: none;
+}
+.menu-items ul li {
+  display: inline-block;
+}
+.menu-items ul li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+.menu-items ul li:hover a{
+    color: rgb(250, 141, 39);
+    transition: .5s;
+    
+}
+
+/*-----Top section css
+---------------------------- */
+
+/* 1 Top player section css */
+
+.top-section{
+  margin-bottom: 15px;
+}
+.top-padding{
+    padding: 50px;
+    
+}
+.players-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 30px;
+
+}
+.player-img{
+    width: 56px;
+    height: 56px;
+}
+.players{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.player-name{
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    
+}
+/* Top section bottom css */
+.top-blog{
+  margin-top: 30px;
+}
+.main-blog{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  margin-top: 20px;
+  
+}
+.blog-img img{
+  width: 177px;
+  height: 117px;
+}
+.blog{
+display: flex;
+margin-top: 15px;
+
+
+
+
+}
+.blog-article{
+  position: relative;
+  left: 15px;
+}
+a{
+  text-decoration: none;
+}
+
+/* Bottom Section */
+.bottom-section{
+  margin-bottom: 20px;
+}
+.lc{
+  position: relative;
+  margin-bottom: 15px;
+}
+.box{
+  width: 252px;
+  height: 270px;
+  text-align: left;
+  border-radius: 15px;
+  box-shadow: 2px 2px 20px #ddd,
+              -2px 2px 20px #ddd;
+              
+  
+  
+}
+.box-content{
+  padding: 15px;
+}
+
+.box-img img{
+  width: 225px;
+  height: 105px;
+}
+.blog-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+.field{
+  color: #ffc014;
+}
+.empty{
+  color: #ebebeb;
+
+}
+.rating p{
+  color: #A2A2A2;
+;
+}
+.duration{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 94px;
+  height: 30px;
+  background-color:#ffe4e8;
+  border-radius: 10px;
+  color: red;
+  font-size: 15px;
+
+
+}
+.all-box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 20px;
+}
+/* Responsive css */
+@media only screen and (max-width:870px) {
+  header{
+    width: 870px;
+  }
+  
+}
+
+
+
